@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/tomcat-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/catalina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/ecj-4.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/tomcat-i18n-ja.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/tomcat-jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/el-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/tomcat-websocket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/catalina-tribes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/websocket-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/tomcat-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/tomcat-i18n-fr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/tomcat-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/jasper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/tomcat-jni.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/tomcat-i18n-es.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/catalina-ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/catalina-storeconfig.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/tomcat-coyote.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/jasper-el.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/annotations-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/tomcat-util-scan.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/jaspic-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/SQLite_JDBC_3.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/catalina-ha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/mysql-connector-java-5.1.46-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/mysql-connector-java-5.1.46.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

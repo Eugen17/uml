@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Project/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Project/lib/javax.servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Project/lib/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Project/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Project/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Project/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Project/lib/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Project/lib/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Project/lib/SQLite_JDBC_3.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Project/lib/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Project_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.46-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Project_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.46.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

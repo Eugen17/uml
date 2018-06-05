@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="bin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/bin/commons-daemon.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/bin/tomcat-juli.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/bin/bootstrap.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/mysql-connector-java-5.1.46-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Apache_Tomcat/lib/mysql-connector-java-5.1.46.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<!-- Страница откроется при входе в корень сайта -->
+	<welcome-file-list>
+		<welcome-file>
+			Index.html
+		</welcome-file>
+	</welcome-file-list>
+
+</web-app>

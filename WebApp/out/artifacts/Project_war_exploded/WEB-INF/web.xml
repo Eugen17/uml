@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+    <!-- Страница которая откроется при входе в корень сайта -->
+    <servlet>
+        <servlet-name>Home_Servlet</servlet-name>
+        <servlet-class>Servlets.HomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Home_Servlet</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
+
+    <!-- Страница с товарами -->
+    <servlet>
+        <servlet-name>Shop_Servlet</servlet-name>
+        <servlet-class>Servlets.ShopServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Shop_Servlet</servlet-name>
+        <url-pattern>/shop</url-pattern>
+    </servlet-mapping>
+
+    <!-- Страница выбранного товара -->
+    <servlet>
+        <servlet-name>Product_Servlet</servlet-name>
+        <servlet-class>Servlets.ProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Product_Servlet</servlet-name>
+        <url-pattern>/shop/product</url-pattern>
+    </servlet-mapping>
+
+    <!-- Страница "Корзина пользователя" -->
+    <servlet>
+        <servlet-name>Basket_Servlet</servlet-name>
+        <servlet-class>Servlets.BasketServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Basket_Servlet</servlet-name>
+        <url-pattern>/shop/basket</url-pattern>
+    </servlet-mapping>
+
+    <!-- Страница входа -->
+    <servlet>
+        <servlet-name>Entrance_Servlet</servlet-name>
+        <servlet-class>Servlets.EntranceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Entrance_Servlet</servlet-name>
+        <url-pattern>/entrance</url-pattern>
+    </servlet-mapping>
+
+    <!-- Страница регистрации -->
+    <servlet>
+        <servlet-name>Registration_Servlet</servlet-name>
+        <servlet-class>Servlets.RegistrationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registration_Servlet</servlet-name>
+        <url-pattern>/registration</url-pattern>
+    </servlet-mapping>
+
+    <!-- Страница "О нас" -->
+    <servlet>
+        <servlet-name>About_Servlet</servlet-name>
+        <servlet-class>Servlets.AboutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>About_Servlet</servlet-name>
+        <url-pattern>/about</url-pattern>
+    </servlet-mapping>
+
+    <!-- Страница "Личный кабинет" -->
+    <servlet>
+        <servlet-name>Office_Servlet</servlet-name>
+        <servlet-class>Servlets.OfficeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Office_Servlet</servlet-name>
+        <url-pattern>/office</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>ShopServletFilter</filter-name>
+        <filter-class>Filters.ShopServletFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ShopServletFilter</filter-name>
+        <servlet-name>Shop_Servlet</servlet-name>
+    </filter-mapping>
+
+</web-app>
